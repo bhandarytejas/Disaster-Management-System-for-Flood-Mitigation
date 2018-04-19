@@ -147,8 +147,5 @@ Sentiment <- c("Negative","Neutral","Positive")
 Count <- c(negative, neutral, positive)
 output <- as.data.frame(Sentiment, Count)
 
-#Bar plot for Sentiment Analysis
-qplot(Sentiment, Count, data = output, geom = 'histogram', fill = Sentiment,
-      xlab = "Sentiment", ylab = "Count", main = "Sentiment Analysis")
-
+#Plot for Sentiment Analysis
 ggplot(output, aes(x=Sentiment, y = Count, fill =  Sentiment)) + geom_bar(stat = "identity")
