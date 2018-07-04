@@ -1,6 +1,5 @@
 # Twitter Disaster Management
-
-Tweets being a social media tool has enabled people to express what they see and feel in their surroundings.
+Twitter is the online news and social networking service on which users regularly post and interact with messages which has enabled people to express what they see and feel in their surroundings.
 
 At present, I have mined the tweets using Twitter API for Hurricane Sandy and plotted on an interactive map for the affected states against time. 
 
