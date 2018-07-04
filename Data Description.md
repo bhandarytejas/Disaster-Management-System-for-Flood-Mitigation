@@ -2,8 +2,8 @@ Following is the Description of the Data used for the analysis:
 
 Column Name	|	Description				|
 -----------------------------------------------------------------
-ID 		|	Unique Tweet ID				|
-Date		|	Datetime of tweet			|
+ID 		    -	Unique Tweet ID				|
+Date		  -	Datetime of tweet			|
 User_Name	|	User Name				|
 Handle		|	Handle					|
 Followers	|	Followers Count				|
